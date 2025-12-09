@@ -1,0 +1,82 @@
+text,cleaned_text,category,label,urgency
+"Loan servicing, payments, escrow account",loan servicing payment escrow account,complaint,0,low
+"Loan modification,collection,foreclosure",loan modificationcollectionforeclosure,complaint,0,high
+Billing statement,billing statement,complaint,0,medium
+Unable to get credit report/credit score,unable get credit reportcredit score,complaint,0,low
+False statements or representation,false statement representation,complaint,0,low
+"Application, originator, mortgage broker",application originator mortgage broker,complaint,0,low
+Dealing with my lender or servicer,dealing lender servicer,complaint,0,low
+Credit reporting,credit reporting,complaint,0,low
+Credit reporting company's investigation,credit reporting company investigation,complaint,0,medium
+Deposits and withdrawals,deposit withdrawal,complaint,0,low
+Rewards,reward,complaint,0,low
+Charged fees or interest I didn't expect,charged fee interest didnt expect,complaint,0,medium
+"Account opening, closing, or management",account opening closing management,complaint,0,low
+Taking/threatening an illegal action,takingthreatening illegal action,complaint,0,high
+"Making/receiving payments, sending money",makingreceiving payment sending money,complaint,0,low
+Problems caused by my funds being low,problem caused fund low,complaint,0,medium
+Delinquent account,delinquent account,complaint,0,low
+Identity theft / Fraud / Embezzlement,identity theft fraud embezzlement,complaint,0,high
+Shopping for a line of credit,shopping line credit,complaint,0,low
+Problems when you are unable to pay,problem unable pay,complaint,0,high
+Customer service / Customer relations,customer service customer relation,complaint,0,low
+Managing the loan or lease,managing loan lease,complaint,0,low
+Communication tactics,communication tactic,complaint,0,low
+Credit determination,credit determination,complaint,0,low
+Billing disputes,billing dispute,complaint,0,medium
+Credit monitoring or identity protection,credit monitoring identity protection,complaint,0,low
+Can't repay my loan,cant repay loan,complaint,0,high
+Improper contact or sharing of info,improper contact sharing info,complaint,0,low
+Collection practices,collection practice,complaint,0,medium
+Getting a loan,getting loan,complaint,0,low
+APR or interest rate,apr interest rate,complaint,0,low
+Closing/Cancelling account,closingcancelling account,complaint,0,low
+Repaying your loan,repaying loan,complaint,0,low
+Unauthorized transactions/trans. issues,unauthorized transactionstrans issue,complaint,0,low
+Payoff process,payoff process,complaint,0,low
+Advertising and marketing,advertising marketing,complaint,0,low
+Using a debit or ATM card,using debit atm card,complaint,0,low
+Settlement process and costs,settlement process cost,complaint,0,low
+Credit line increase/decrease,credit line increasedecrease,complaint,0,low
+Taking out the loan or lease,taking loan lease,complaint,0,low
+Unsolicited issuance of credit card,unsolicited issuance credit card,complaint,0,low
+Applied for loan/did not receive money,applied loandid receive money,complaint,0,low
+Credit decision / Underwriting,credit decision underwriting,complaint,0,low
+Can't stop charges to bank account,cant stop charge bank account,complaint,0,medium
+Improper use of my credit report,improper use credit report,complaint,0,low
+Forbearance / Workout plans,forbearance workout plan,complaint,0,low
+Can't contact lender,cant contact lender,complaint,0,low
+Late fee,late fee,complaint,0,low
+Transaction issue,transaction issue,complaint,0,low
+"Managing, opening, or closing account",managing opening closing account,complaint,0,low
+Money was not available when promised,money available promised,complaint,0,low
+Collection debt dispute,collection debt dispute,complaint,0,medium
+Received a loan I didn't apply for,received loan didnt apply,complaint,0,low
+Adding money,adding money,complaint,0,low
+Bankruptcy,bankruptcy,complaint,0,low
+Fraud or scam,fraud scam,complaint,0,high
+Shopping for a loan or lease,shopping loan lease,complaint,0,low
+Credit card protection / Debt protection,credit card protection debt protection,complaint,0,low
+Arbitration,arbitration,complaint,0,low
+Balance transfer,balance transfer,complaint,0,low
+Privacy,privacy,complaint,0,low
+Balance transfer fee,balance transfer fee,complaint,0,low
+Cash advance,cash advance,complaint,0,low
+Customer service/Customer relations,customer servicecustomer relation,complaint,0,low
+Lender repossessed or sold the vehicle,lender repossessed sold vehicle,complaint,0,low
+Wrong amount charged or received,wrong amount charged received,complaint,0,low
+Payment to acct not credited,payment acct credited,complaint,0,low
+Incorrect/missing disclosures or info,incorrectmissing disclosure info,complaint,0,low
+Charged bank acct wrong day or amt,charged bank acct wrong day amt,complaint,0,low
+Managing the line of credit,managing line credit,complaint,0,low
+Application processing delay,application processing delay,complaint,0,low
+Disclosures,disclosure,complaint,0,low
+"Advertising, marketing or disclosures",advertising marketing disclosure,complaint,0,low
+Account terms and changes,account term change,complaint,0,low
+Cash advance fee,cash advance fee,complaint,0,low
+Sale of account,sale account,complaint,0,low
+Convenience checks,convenience check,complaint,0,low
+Overlimit fee,overlimit fee,complaint,0,low
+Fees,fee,complaint,0,medium
+Lost or stolen money order,lost stolen money order,complaint,0,low
+Incorrect exchange rate,incorrect exchange rate,complaint,0,low
