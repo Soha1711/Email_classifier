@@ -1,31 +1,20 @@
-# Email_classifier
-
+Email_classifier
 AI Powered Smart Email Classifier for Enterprises.
 
-## Project overview
+Project overview
+This project classifies emails into complaint, request, feedback, spam and predicts their urgency (high, medium, low) to help support teams triage messages.
 
-This project classifies emails into **complaint, request, feedback, spam**  
-and predicts their **urgency** (**high, medium, low**) to help support teams triage messages.
+Project structure
+raw_datasets/ – original CSV datasets.
 
-## Project structure
+cleaned_datasets/ – cleaned datasets and all_emails_merged.csv.
 
-- `raw_datasets/` – original CSV datasets.
-- `cleaned_datasets/` – cleaned datasets and `all_emails_merged.csv`.
-- `python files/` – Python scripts for cleaning and merging datasets.
-- `LICENSE` – MIT license.
-- `README.md` – project description and usage.
+python files/ – scripts for cleaning/merging datasets and running predictions.
 
-## Data preprocessing
+milestone 2/ – category/spam prediction scripts (LR + DistilBERT demo).
 
-All datasets are converted to a common schema:
+milestone 3/ – urgency training/testing scripts and saved model (urgency_pipeline.pkl).
 
-- `text` – original email text.
-- `cleaned_text` – cleaned version produced by `clean_email`.
-- `category` – one of: `complaint`, `request`, `feedback`, `spam`.
-- `label` – integer encoding of `category`.
-- `urgency` – `high`, `medium`, or `low`.
+LICENSE – MIT license.
 
-Duplicates and non‑English rows are removed where applicable.
-
-
-
+README.md – project documentation.
