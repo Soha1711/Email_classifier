@@ -82,3 +82,143 @@ This project classifies emails into complaint, request, feedback, and spam, whil
 ### Files Involved
 * `milestone 3/model_milestone3_train.py` – trains urgency model and saves pipeline.
 * `milestone 3/test_model_milestone3.py` – tests urgency predictions and prints score.
+
+# 🚀 Milestone 4 – Deployment & Integration
+
+## 🌐 Live Deployment
+The Email Intelligence System is successfully deployed on AWS EC2.
+
+👉 **Live Application Link:**  
+http://16.171.176.15:8501
+
+👉 **Backend API (FastAPI):**  
+http://16.171.176.15:8000/docs
+
+---
+
+## 📌 Milestone 4 Objectives
+
+- Integrate trained ML models with FastAPI backend  
+- Connect Streamlit frontend with backend API  
+- Deploy full application on AWS EC2  
+- Implement real-time email classification  
+- Add dashboard analytics and live inbox  
+
+---
+
+## 🧱 System Architecture
+
+User → Streamlit UI → FastAPI Backend → ML Models → Prediction → Dashboard
+
+---
+
+## 🛠 Technology Stack
+
+| Layer | Technology |
+|------|------------|
+| Frontend | Streamlit |
+| Backend | FastAPI |
+| ML Models | Logistic Regression + DistilBERT |
+| Deployment | AWS EC2 |
+| Libraries | scikit-learn, transformers, pandas, plotly |
+
+---
+
+## ✨ Features Delivered
+
+### 1. AI Email Classification
+- Predicts:
+  - Category (complaint / request / feedback / spam)
+  - Urgency (low / medium / high)
+- Color badge visualization
+
+### 2. Dashboard Analytics
+- Total emails  
+- Top category  
+- Most urgent  
+- Bar & pie charts  
+
+### 3. Live Inbox
+- Table view  
+- Select & read email  
+ 
+
+---
+
+## 🔌 API Endpoint
+
+**POST /predict**
+
+### Request
+```json
+{
+  "sender": "test@gmail.com",
+  "subject": "refund issue",
+  "text": "I want refund immediately"
+}
+```
+
+### Response
+```json
+{
+  "email": "I want refund immediately",
+  "category": "complaint",
+  "urgency": "high"
+}
+```
+---
+
+## 🧪 Testing Performed
+
+The following testing activities were carried out to validate the system:
+
+- Verified email classification model predictions (category & urgency)
+- Tested FastAPI `/predict` endpoint using Swagger 
+- Validated frontend–backend integration via Streamlit dashboard  
+- Checked numeric-to-label mapping (0 → complaint, 1 → request, etc.)  
+- Tested live email inbox updates after prediction  
+- Dashboard analytics (bar chart & pie chart) verification  
+- Login module validation with role-based access  
+- Error handling for backend downtime and invalid inputs  
+
+---
+
+## 📦 Project Deliverables
+
+- Trained Machine Learning models for:
+  - Email Category Classification  
+  - Urgency Detection  
+- FastAPI Backend Service  
+- Streamlit Frontend Dashboard  
+- AWS EC2 Deployment  
+- Real-time Email Prediction Interface  
+- Unit Testing & Defect Tracker Documents  
+
+---
+
+## 🔮 Future Enhancements
+
+- Integration with real email inbox (IMAP/SMTP)  
+- Database storage for classified emails  
+- Admin & employee role management  
+- Model retraining with new data  
+- Email auto-response generation  
+- Performance analytics dashboard  
+- Multi-language email support  
+
+---
+Technologies Used:  
+- Python | FastAPI | Streamlit  
+- Scikit-learn | NLP  
+- AWS EC2 | REST API  
+
+## 👩‍💻 Developed By
+
+**Soha Jethva**   
+Email Intelligence System – Internship Project  
+
+
+
+
+
+
